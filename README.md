@@ -1,5 +1,7 @@
 # API Acceptance Test
-  
+
+Using the API given below create an automated test with the listed acceptance criteria:
+API = https://api.tmsandbox.co.nz/v1/Categories/6327/Details.json?catalogue=false
 
 ## 1. Acceptance Criteria:
 
