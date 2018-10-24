@@ -25,6 +25,8 @@ API = https://api.tmsandbox.co.nz/v1/Categories/6327/Details.json?catalogue=fals
  - RestSharp.dll
  - System.ValueTuple.dll
  - TechTalk.SpecFlow.dll
+ 
+ Location for zip file for above: https://drive.google.com/drive/folders/13aO8qYbikHs97q6CuBdtw-bzFVAwoVaf?usp=sharing
 
 ## 4. Steps to execute tests from command line
 
