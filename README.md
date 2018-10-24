@@ -1,16 +1,30 @@
 # API Acceptance Test
-Acceptance Criteria:
-Name = "Carbon credits"
-CanRelist = true
-The Promotions element with Name = "Gallery" has a Description that contains the text "2x larger image"
+  
 
-## 1. Language and framework used
+## 1. Acceptance Criteria:
 
- - C-Sharp was used as the programming language
+ - Name = "Carbon credits"
+ - CanRelist = true
+ - The Promotions element with Name = "Gallery" has a Description that contains the text "2x larger image"
+
+## 2. Language and framework used
+
+ - C-Sharp was used as the programming language using Visual Studio 2017 communtiy addition
  - Specflow was used as a framework in conjunction with nunit
+ 
+## 3. Files needed to execute test
 
+ - APIFramework.dll
+ - Newtonsoft.Json.dll
+ - nunit.framework.dll
+ - nunit.engine.api.dll
+ - nunit.engine.dll
+ - NUnit3.TestAdapter.dll
+ - RestSharp.dll
+ - System.ValueTuple.dll
+ - TechTalk.SpecFlow.dll
 
-## 2. Steps to execute tests from command line
+## 4. Steps to execute tests from command line
 
 1. Official NUnit3 console installers are here: https://github.com/nunit/nunit-console/releases
 2. Download NUnit.Console-*.msi package and install
