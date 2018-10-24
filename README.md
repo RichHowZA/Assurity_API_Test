@@ -15,7 +15,7 @@ API = https://api.tmsandbox.co.nz/v1/Categories/6327/Details.json?catalogue=fals
  - Specflow was used as a framework in conjunction with nunit
  
 ## 3. Files needed to execute test
-
+  
  - APIFramework.dll
  - Newtonsoft.Json.dll
  - nunit.framework.dll
@@ -26,6 +26,8 @@ API = https://api.tmsandbox.co.nz/v1/Categories/6327/Details.json?catalogue=fals
  - System.ValueTuple.dll
  - TechTalk.SpecFlow.dll
  
+ Grab files from: https://github.com/RichHowZA/Assurity_API_Test/tree/master/APIFramework/bin/Debug
+ or alternatively I have already zipped them in the below location
  Location for zip file for above: https://drive.google.com/drive/folders/13aO8qYbikHs97q6CuBdtw-bzFVAwoVaf?usp=sharing
 
 ## 4. Steps to execute tests from command line
@@ -34,5 +36,6 @@ API = https://api.tmsandbox.co.nz/v1/Categories/6327/Details.json?catalogue=fals
 2. Download NUnit.Console-*.msi package and install
 3. Add to system PATH variable this: C:\Program Files (x86)\NUnit.org\nunit-console
 4. Open command line
+5. Change dirctory to where you copied and extracted .dll's 
 5. Type: nunit3-console APIFramework.dll
 
